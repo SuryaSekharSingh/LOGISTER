@@ -1,5 +1,3 @@
-Here's a `README.md` file summarizing your project and covering all the aspects you mentioned:
-
 ```markdown
 # LOGISTER - Club Induction Platform
 
@@ -53,13 +51,13 @@ LOGISTER is a web-based platform designed to streamline the ACM club's induction
    
 ## Running the Project
 1. **Start Apache & MySQL** in XAMPP.
-2. Open your browser and go to:
+2. **Open your browser and go to:**
    
    ```bash
    http://localhost/LOGISTER/
    ```
 
-3. The landing page should load, allowing users to navigate to login, signup, or password reset pages.
+3. **The landing page should load, allowing users to navigate to login, signup, or password reset pages.**
 
 ## Folder Structure
 ```
