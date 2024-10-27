@@ -37,6 +37,8 @@
                 $showAlert = true;
                 session_unset();
                 session_destroy();
+                header("location:login.php");
+                exit(0);
             }
         }
         else{
@@ -57,7 +59,6 @@
     <link rel="stylesheet" type="text/css" href="./css/login.css" />
 </head>
 <body>
-    <div class="login-container">
         <?php
             if($showAlert){
                 echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -82,6 +83,7 @@
                     </div>';
             }   
         ?>
+    <div class="login-container">
         <!-- ACM Logo on Top -->
         <div class="logo-container">
             <img src="./images/acm_full-removebg-preview.png" alt="ACM Logo" style="scale:2.5;" />
