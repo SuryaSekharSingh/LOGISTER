@@ -1,0 +1,106 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(120deg, #84a9ac, #3b6978); /* Matching color scheme */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for the login form */
+.login-container {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px; /* Ensures content is vertically centered */
+}
+
+/* Logo styles */
+.logo-container {
+    margin-bottom:0;
+}
+
+.logo-container img {
+    width: 100px; /* Adjust size as needed */
+    margin-bottom: 15px;
+}
+
+/* Form styles */
+h2 {
+    margin-bottom: 20px;
+    color: #3b6978;
+}
+
+form {
+    width: 100%; /* Ensures form takes full width inside the container */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3b6978;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2f4f5a;
+}
+
+.form-links {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.form-links a {
+    color: #3b6978;
+    text-decoration: none;
+}
+
+.form-links a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,84 @@
+/* Styles for the Forgot Password Page */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(135deg, #86A8E7, #91EAE4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.forgot-password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.forgot-password-box {
+    background-color: white;
+    padding: 40px;
+    width: 360px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #34568B; /* Consistent with previous styles */
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-size: 0.9rem;
+    color: #34568B;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1rem;
+    border: 1px solid #ccd1d9;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #34568B;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #27496d;
+}
+
+.options {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.options a {
+    color: #34568B;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.options a:hover {
+    color: #27496d;
+}

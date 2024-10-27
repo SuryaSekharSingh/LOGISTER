@@ -1,0 +1,148 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+html::-webkit-scrollbar{
+    width:0.5rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: #ff6600;
+}
+html::-webkit-scrollbar-thumb{
+    background: linear-gradient(#0066ff, #00ccff);
+    border-radius: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    background-color: #333;
+    color: #fff;
+}
+nav .logo h1{
+    font-size:2rem;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: linear-gradient(to right, #0066ff, #00ccff);
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.cta-button {
+    background-color: #ff6600;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.features, .testimonials, .signup {
+    padding: 50px;
+    text-align: center;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item i {
+    font-size: 40px;
+    color: #0066ff;
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.testimonial {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.login-btn {
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signup input, .signup button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+}
+
+/* .signup-btn {
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+} */
+.signup-btn {
+    width: 100%;
+    padding: 10px;
+    background-color:#0066ff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    overflow: hidden;
+}
+
+.signup-btn:hover {
+    background-color: #0e5fd8;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
